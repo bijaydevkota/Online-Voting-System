@@ -39,15 +39,15 @@ export default function Page() {
           <input className="border rounded border-black w-full py-2" type="date" />
         </div>
         <div className="flex flex-col gap-2 w-full">
-          <p>Father's Name :</p>
+          <p>Father&apos;s Name :</p>
           <input className="border rounded border-black w-full py-2" type="text" />
         </div>
         <div className="flex flex-col gap-2 w-full">
-          <p>Mother's Name :</p>
+          <p>Mother&apos;s Name :</p>
           <input className="border rounded border-black w-full py-2" type="text" />
         </div>
         <div className="flex flex-col gap-2 w-full">
-          <p>Grandfather's Name :</p>
+          <p>Grandfather&apos;s Name :</p>
           <input className="border rounded border-black w-full py-2" type="text" />
         </div>
         <div className="flex flex-col gap-2 w-full">

@@ -31,7 +31,7 @@ export default function Page() {
           </Link>
         
         <div className="flex gap-2">
-          <p>Don't have an account?</p>
+          <p>Don&apos;t have an account?</p>
 
           <Link href="/register" className="text-blue-500 underline">Register Now</Link>
         </div>
