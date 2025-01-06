@@ -24,7 +24,7 @@ export default function Page() {
         </div>
          
        <div className="flex justify-center p-2 text-center text-2xl w-9/12 mx-auto rounded-2xl mt-4">
-            <p className="text-2xl font-sans animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization's voting event.</p>
+            <p className="text-2xl font-sans animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization&apos;s voting event.</p>
         </div>
 
         <div className="mt-24 w-10/12 mx-auto">
@@ -34,19 +34,19 @@ export default function Page() {
      <div className="flex gap-4 pr-4 pl-4 mt-24">
         <div className="flex flex-col text-center w-4/12 mx-auto  bg-blue-400 p-6 text-white rounded-xl">
           <p className="text-5xl font-bold">What is  an online voting system ?</p>
-          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization's voting event.</p>
+          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization&apos;s voting event.</p>
           <button className="bg-red-500 rounded text-white mt-4 w-4/12 mx-auto p-2 shadow-2xl">Learn More</button>
         </div>
 
         <div className="flex flex-col text-center w-4/12 mx-auto  bg-blue-400 p-6 text-white rounded-xl drop-shadow-2xl">
           <p className="text-5xl font-bold">What is  an online voting system ?</p>
-          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization's voting event.</p>
+          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization&apos;s voting event.</p>
           <button className="bg-red-500 rounded text-white mt-4 w-4/12 mx-auto p-2 shadow-2xl">Learn More</button>
         </div>
 
         <div className="flex flex-col text-center w-4/12 mx-auto  bg-blue-400 p-6 text-white rounded-xl">
           <p className="text-5xl font-bold">What is  an online voting system ?</p>
-          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization's voting event.</p>
+          <p className="text-2xl mt-4 animate-pulse">An online voting system is a software platform that allows groups to securely conduct votes and elections. High-quality online voting systems balance ballot security, accessibility, and the overall requirements of an organization&apos;s voting event.</p>
           <button className="bg-red-500 rounded text-white mt-4 w-4/12 mx-auto p-2 shadow-2xl">Learn More</button>
         </div>
 
