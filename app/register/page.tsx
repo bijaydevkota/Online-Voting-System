@@ -6,7 +6,7 @@ export default function Page() {
     <div className=" ">
       <div className="flex justify-between p-2 bg-blue-400 text-white">
         <div className="pl-8 py-2">
-          <Link href="#" className="p-2 text-2xl bg-red-500 text-white rounded-xl">OVS</Link>
+          <Link href="#" className="p-2 text-2xl bg-red-500 text-white rounded-xl hover:bg-red-400">OVS</Link>
         </div>
         <div className="flex p-2 gap-10 pr-8">
         <Link href="/">Home</Link>
