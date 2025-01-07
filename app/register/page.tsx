@@ -1,22 +1,33 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className=" ">
-      <div className="flex justify-between p-2 bg-blue-400 text-white">
-        <div className="pl-8 py-2">
+    <div className="bg-gray-100">
+      <div className="flex justify-between p-2 bg-blue-400 text-white sticky top-0 b z-50">
+        <div className="pl-8 py-2 items-center">
           <Link href="#" className="p-2 text-2xl bg-red-500 text-white rounded-xl hover:bg-red-400">OVS</Link>
         </div>
-        <div className="flex p-2 gap-10 pr-8">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+        <div className="flex p-2 gap-10 pr-8 items-center">
+        <Link href="/" className="hover:text-gray-300">Home</Link>
+        <Link href="/about" className="hover:text-gray-300">About</Link>
+        <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+        <div className="flex items-center">
+                              <Image
+                                src="/flag.gif"
+                                alt="Nepal Flag"
+                                width={30} 
+                                height={30} 
+                                className="object-contain"
+                              />
+                </div>
         </div>
       </div>
 
-      <div className="flex flex-col items-center my-8 py-8 px-8 bg-blue-50  justify-center rounded shadow-2xl  w-4/12 mx-auto space-y-6">
+      <div className="flex flex-col items-center my-8 py-8 px-8 bg-blue-50  justify-center rounded shadow-2xl  w-5/12 mx-auto space-y-6">
         <div className="flex flex-col gap-2 w-full">
+          <p className="flex justify-center text-sm">Note: Only 18+ people are allowed to vote</p>
           <p>Fullname : </p>
           <input className="border rounded border-black w-full py-2" type="text" />
         </div>
@@ -91,6 +102,8 @@ export default function Page() {
           <input className="w-full" type="radio" name="gender" />
           Female
         </div>
+
+       
         
           <Link href="/password" className="bg-blue-400 text-xl text-white py-2 px-8 text-center rounded w-full hover:bg-blue-300">
             Sign up
