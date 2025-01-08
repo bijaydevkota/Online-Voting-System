@@ -46,7 +46,7 @@ export default function Page() {
         <p className="font-bold">Step 2: Obtain Access to the Voting System</p>
      </div>
      <div className="mt-2">
-        <p>You will likely receive a link or access instructions via email, SMS, or the organization's website.</p>
+        <p>You will likely receive a link or access instructions via email, SMS, or the organization&apos;s website.</p>
         <p>Log in using your unique credentials.</p>
      </div>
     </div>

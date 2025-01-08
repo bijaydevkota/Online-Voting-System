@@ -37,7 +37,7 @@ export default function Page() {
         <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
           <div>
             <h3 className="text-xl font-medium text-gray-700">Candidate 1</h3>
-            <p className="text-gray-500">"A vision for the future."</p>
+            <p className="text-gray-500">A vision for the future.</p>
           </div>
           <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
         </div>
@@ -46,7 +46,7 @@ export default function Page() {
         <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
           <div>
             <h3 className="text-xl font-medium text-gray-700">Candidate 2</h3>
-            <p className="text-gray-500">"Building a better tomorrow."</p>
+            <p className="text-gray-500">Building a better tomorrow.</p>
           </div>
           <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
         </div>
@@ -55,7 +55,7 @@ export default function Page() {
         <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
           <div>
             <h3 className="text-xl font-medium text-gray-700">Candidate 3</h3>
-            <p className="text-gray-500">"Your voice, your choice."</p>
+            <p className="text-gray-500">Your voice, your choice.</p>
           </div>
           <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
         </div>
