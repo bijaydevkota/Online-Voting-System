@@ -30,7 +30,7 @@ export default function Page() {
       </div>
 
       {/* Password Form */}
-      <div className="flex flex-col items-center my-28 py-16 px-4 bg-blue-50 justify-center rounded shadow-2xl w-3/12 mx-auto space-y-6">
+      <form className="flex flex-col items-center my-28 py-16 px-4 bg-blue-50 justify-center rounded shadow-2xl w-3/12 mx-auto space-y-6">
         <p className="text-2xl bg-blue-400 p-2 rounded-xl text-white">Create a Password</p>
         
         <div className="flex flex-col gap-2 w-full">
@@ -55,10 +55,10 @@ export default function Page() {
           />
         </div>
 
-        <Link href="/" className="bg-blue-400 text-xl text-center text-white py-2 px-8 rounded w-full hover:bg-blue-300 transition duration-300">
+        <button type="submit" className="bg-blue-400 text-xl text-center text-white py-2 px-8 rounded w-full hover:bg-blue-300 transition duration-300">
           Submit
-        </Link>
-      </div>
+        </button>
+      </form>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-4 mt-16">

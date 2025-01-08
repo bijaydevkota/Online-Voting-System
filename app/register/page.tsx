@@ -25,55 +25,69 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center my-8 py-8 px-8 bg-blue-50  justify-center rounded shadow-2xl  w-5/12 mx-auto space-y-6">
+      <form className="flex flex-col items-center my-8 py-8 px-8 bg-blue-50  justify-center rounded shadow-2xl  w-5/12 mx-auto space-y-6">
         <div className="flex flex-col gap-2 w-full">
           <p className="flex justify-center text-sm">Note: Only 18+ people are allowed to vote</p>
-          <p>Fullname : </p>
-          <input className="border rounded border-black w-full py-2" type="text" />
+          <p>Firstname : </p>
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
+        </div>
+        <div className="flex flex-col gap-2 w-full">
+          
+          <p>Middlename : </p>
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
+        </div>
+        <div className="flex flex-col gap-2 w-full">
+         
+          <p>Lastname : </p>
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
+        </div>
+        <div className="flex flex-col gap-2 w-full">
+          <p>Temporary Address :</p>
+          <input className="border rounded border-black w-full py-2" type="text" required />
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Permanent Address :</p>
-          <input className="border rounded border-black w-full py-2" type="text" />
+          <input className="border rounded border-black w-full py-2" type="text" required />
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Email :</p>
-          <input className="border rounded border-black w-full py-2" type="email" placeholder=" eg-bijay123@gmail.com" />
+          <input className="border rounded border-black w-full py-2" type="email" placeholder=" eg-bijay123@gmail.com" required />
         </div>
 
         <div className="flex flex-col gap-2 w-full">
           <p>Phone Number :</p>
-          <input className="border rounded border-black w-full py-2" type="number" placeholder=" eg-9866666666" />
+          <input className="border rounded border-black w-full py-2" type="number" placeholder=" eg-9866666666" required />
         </div>
       
         <div className="flex flex-col gap-2 w-full">
           <p>Date of Birth :</p>
-          <input className="border rounded border-black w-full py-2" type="date" />
+          <input className="border rounded border-black w-full py-2" type="date"  required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Father&apos;s Name :</p>
-          <input className="border rounded border-black w-full py-2" type="text" />
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Mother&apos;s Name :</p>
-          <input className="border rounded border-black w-full py-2" type="text" />
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Grandfather&apos;s Name :</p>
-          <input className="border rounded border-black w-full py-2" type="text" />
+          <input className="border rounded border-black w-full py-2" type="text"  required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Citizenship Number :</p>
-          <input className="border rounded border-black w-full py-2" type="number" />
+          <input className="border rounded border-black w-full py-2" type="number"  required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Upload Citizenship :</p>
           <p>Front-Side :</p>
-          <input className="border rounded border-black w-full py-2" type="file"/>
+          <input className="border rounded border-black w-full py-2" type="file" required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Back-Side :</p>
           
-          <input className="border rounded border-black w-full py-2" type="file"/>
+          <input className="border rounded border-black w-full py-2" type="file" required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Nationality :</p>
@@ -97,17 +111,17 @@ export default function Page() {
 
         <div className="flex gap-2 w-full">   
           <p>Gender:</p>
-          <input className="w-full" type="radio" name="gender" />
+          <input className="w-full" type="radio" name="gender"/>
           Male
-          <input className="w-full" type="radio" name="gender" />
+          <input className="w-full" type="radio" name="gender"/>
           Female
         </div>
 
        
         
-          <Link href="/password" className="bg-blue-400 text-xl text-white py-2 px-8 text-center rounded w-full hover:bg-blue-300">
+          <button type="submit" className="bg-blue-400 text-xl text-white py-2 px-8 text-center rounded w-full hover:bg-blue-300">
             Sign up
-          </Link>
+          </button>
 
           <div className="flex gap-2">
           <p>Already Have An Account ?</p>
@@ -115,7 +129,7 @@ export default function Page() {
           <Link href="/" className="text-blue-500 underline">Log in</Link>
         </div>
      
-      </div>
+      </form>
 
       <footer className="bg-gray-800 text-white py-4 mt-16">
         <div className="container mx-auto text-center">

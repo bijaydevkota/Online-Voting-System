@@ -30,67 +30,37 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="min-h-screen bg-gray-100 flex justify-center items-center">
-      <div className="bg-white p-8 rounded-lg shadow-xl w-full sm:w-96">
-        <h1 className="text-3xl font-bold text-center text-blue-500 mb-6">
-          Vote for Your Candidate
-        </h1>
-        <form>
-          <div className="space-y-4">
-            <div className="flex items-center">
-              <input
-                type="radio"
-                id="candidate1"
-                name="candidate"
-                value="Candidate 1"
-              
-                className="h-5 w-5 text-blue-500 border-gray-300"
-              />
-              <label htmlFor="candidate1" className="ml-2 text-lg">
-                Candidate 1
-              </label>
-            </div>
-            <div className="flex items-center">
-              <input
-                type="radio"
-                id="candidate2"
-                name="candidate"
-                value="Candidate 2"
-               
-                className="h-5 w-5 text-blue-500 border-gray-300"
-              />
-              <label htmlFor="candidate2" className="ml-2 text-lg">
-                Candidate 2
-              </label>
-            </div>
-            <div className="flex items-center">
-              <input
-                type="radio"
-                id="candidate3"
-                name="candidate"
-                value="Candidate 3"
-                
-                className="h-5 w-5 text-blue-500 border-gray-300"
-              />
-              <label htmlFor="candidate3" className="ml-2 text-lg">
-                Candidate 3
-              </label>
-            </div>
-          </div>
+      <div className="space-y-4 h-[72vh]">
+      <p className="text-2xl font-semibold text-gray-800 m-6 flex justify-center">Candidates</p>
 
-          <div className="mt-6">
-            <button
-              type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-400 transition duration-300"
-             
-            >
-              Submit Vote
-            </button>
+        
+        <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
+          <div>
+            <h3 className="text-xl font-medium text-gray-700">Candidate 1</h3>
+            <p className="text-gray-500">"A vision for the future."</p>
           </div>
-        </form>
+          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
+        </div>
+
+      
+        <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
+          <div>
+            <h3 className="text-xl font-medium text-gray-700">Candidate 2</h3>
+            <p className="text-gray-500">"Building a better tomorrow."</p>
+          </div>
+          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
+        </div>
+
+       
+        <div className="flex items-center justify-between bg-gray-50 p-4 rounded-md shadow">
+          <div>
+            <h3 className="text-xl font-medium text-gray-700">Candidate 3</h3>
+            <p className="text-gray-500">"Your voice, your choice."</p>
+          </div>
+          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Vote</button>
+        </div>
       </div>
-    </div>
-
+   
 
       
       <footer className="bg-gray-800 text-white py-4 mt-16">

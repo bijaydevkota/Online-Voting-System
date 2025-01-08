@@ -25,27 +25,27 @@ export default function Page() {
       </div>
       </div>
 
-      <div className="flex flex-col items-center my-32 py-12 px-4 bg-blue-50  justify-center rounded shadow-2xl  w-3/12 mx-auto space-y-6">
+      <form className="flex flex-col items-center my-32 py-12 px-4 bg-blue-50  justify-center rounded shadow-2xl  w-3/12 mx-auto space-y-6">
         <div className="flex flex-col gap-2 w-full">
           <p>Voting ID : </p>
-          <input className="border rounded border-black w-full py-2" type="number" placeholder="  Enter your voting id"/>
+          <input className="border rounded border-black w-full py-2" type="number" placeholder="  Enter your voting id" required/>
         </div>
         <div className="flex flex-col gap-2 w-full">
           <p>Password :</p>
-          <input className="border rounded border-black w-full py-2" type="password" placeholder="  Enter your password"/>
+          <input className="border rounded border-black w-full py-2" type="password" placeholder="  Enter your password" required/>
         </div>
 
         
-          <Link href="/home" className="bg-blue-400 text-center text-xl text-white py-2 px-8 rounded  w-full hover:bg-blue-300">
+          <button type="submit" className="bg-blue-400 text-center text-xl text-white py-2 px-8 rounded  w-full hover:bg-blue-300">
             Log in
-          </Link>
+          </button>
         
         <div className="flex gap-2">
           <p>Don&apos;t have an account?</p>
 
           <Link href="/register" className="text-blue-500 underline">Register Now</Link>
         </div>
-      </div>
+      </form>
 
       <footer className="bg-gray-800 text-white py-4 mt-6">
         <div className="container mx-auto text-center">

@@ -33,7 +33,7 @@ export default function Page() {
         </div>
 
         <div className="flex justify-center mx-auto gap-4 mt-12 p-2">
-          <Link href="#" className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-400 px-7">How To Vote</Link>
+          <Link href="/howtovote" className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-400 px-7">How To Vote</Link>
           <div className="flex bg-red-600 text-white p-2 rounded-lg hover:bg-red-400 gap-2">
           <Youtube />
           <Link href="#">Watch Demo</Link>
