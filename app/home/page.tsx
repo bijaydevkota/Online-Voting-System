@@ -2,6 +2,9 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Youtube } from 'lucide-react';
+import election1 from "@/public/election1.webp"
+import election2 from "@/public/election.jpg"
+
 
 
 export default function Page() {
@@ -42,7 +45,7 @@ export default function Page() {
         </div>
 
         <div className="mt-20 w-10/12 mx-auto">
-       <Image src="/election2.webp" alt="" width={50} height={50} layout="responsive"/>
+       <Image src={election1} alt="" width={50} height={50} layout="responsive"/>
         </div>
        
      <div className="flex gap-4 pr-4 pl-4 py-4 mt-24">
@@ -78,7 +81,7 @@ Using methods like unique voter IDs, passwords, or biometric authentication.Usin
 
 
         <div className="mt-24 w-10/12 mx-auto">
-       <Image src="/election.jpg" alt="" width={50} height={50} layout="responsive"/>
+       <Image src={election2} alt="" width={50} height={50} layout="responsive"/>
         </div>
 
        
