@@ -64,6 +64,7 @@ export default function Page() {
       <footer className="bg-gray-800 text-white py-4 mt-16">
         <div className="container mx-auto text-center">
           <p className="text-gray-400">&copy; {new Date().getFullYear()} Online Voting System. All rights reserved.</p>
+          <p className="mt-2">designed & developed by BCA-7th sem NCIT</p>
         </div>
       </footer>
       

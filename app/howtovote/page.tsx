@@ -142,6 +142,7 @@ export default function Page() {
             &copy; {new Date().getFullYear()} Online Voting System. All rights
             reserved.
           </p>
+          <p className="mt-2">designed & developed by BCA-7th sem NCIT</p>
         </div>
       </footer>
     </div>

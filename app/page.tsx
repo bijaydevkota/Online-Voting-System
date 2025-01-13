@@ -36,7 +36,7 @@ export default function Page() {
         </div>
 
         
-          <button type="submit" className="bg-blue-400 text-center text-xl text-white py-2 px-8 rounded  w-full hover:bg-blue-300">
+          <button type="submit" className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-center text-xl text-white py-2 px-8 rounded  w-full hover:bg-blue-300">
             Log in
           </button>
         
@@ -50,6 +50,7 @@ export default function Page() {
       <footer className="bg-gray-800 text-white py-4 mt-6">
         <div className="container mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} Online Voting System. All rights reserved.</p>
+          <p className="mt-2">designed & developed by BCA-7th sem NCIT</p>
         </div>
       </footer>
     </div>
