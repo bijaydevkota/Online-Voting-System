@@ -17,7 +17,7 @@ export default function Page() {
           <Link href="/" className="hover:text-gray-300">
             Home
           </Link>
-          <Link href="/about" className="hover:text-gray-300">
+          <Link href="/about" className="text-gray-300 hover:text-gray-300">
             About
           </Link>
           <Link href="/contact" className="hover:text-gray-300">
