@@ -23,14 +23,14 @@ export default function Page() {
         <Link href="#contacthome" className="hover:text-gray-300">Contact</Link>
        
         <div>
-        <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl hover:bg-red-400">Vote Now</Link>
+        <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl">Vote Now</Link>
         </div>
         </div>
       </nav>
 
 
-        <div className="py-16 bg-gradient-to-b from-white via-white to-gray-300">
-        <div className="flex justify-center p-2 text-center font-bold w-7/12 mx-auto rounded-xl text-5xl font-sans">
+        <div className="py-16 bg-gradient-to-b from-white via-white to-gray-200">
+        <div className="flex justify-center p-2 text-center font-bold w-7/12 mx-auto text-5xl font-sans">
         <p className="bg-gradient-to-b from-white via-white to-sky-400 py-2">What is  an online voting system ?</p>
         </div>
          
@@ -101,7 +101,7 @@ Using methods like unique voter IDs, passwords, or biometric authentication.Usin
 
         <section id="abouthome" className="bg-gradient-to-r from-gray-300 via-gray-400 to-gray-600 py-24  mt-28 shadow-sm">
         <div className="container mx-auto px-6 lg:px-20">
-          <h2 className="text-3xl font-bold text-center mb-2 text-gray-600">
+          <h2 className="text-3xl font-bold text-center mb-2 text-black">
             About Us
           </h2>
           <p className="text-lg text-gray-100 leading-relaxed text-center mt-8">
