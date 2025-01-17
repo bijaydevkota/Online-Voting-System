@@ -11,7 +11,8 @@ export default function Page() {
         <div className="flex p-2 gap-10 pr-8 items-center">
         <Link href="/home" className="hover:text-gray-300">Home</Link>
         <Link href="/blog" className="hover:text-gray-300">Blogs</Link>
-        
+        <Link href="/about" className="hover:text-gray-300">About</Link>
+        <Link href="/contact" className="hover:text-gray-300">Contact</Link>
        
         <div>
         <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl">Vote Now</Link>
@@ -22,10 +23,10 @@ export default function Page() {
 
 
 
-     <div className="w-4/12 mx-auto mt-16">
+     <div className="w-4/12 mx-auto mt-16 border border-1px rounded-sm shadow-xl p-10">
      <div className="flex flex-col justify-center">
 
-      <p className="flex justify-center font-bold text-2xl text-blue-400 underline">How To Vote</p>
+      <p className="flex justify-center font-bold text-4xl text-blue-400">How To Vote</p>
         <div className="mt-12">
         <p className="font-bold">Step 1: Check Your Eligibility</p>
      </div>

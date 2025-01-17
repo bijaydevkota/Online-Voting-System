@@ -4,27 +4,21 @@ import React from "react";
 export default function Page() {
   return (
     <div className="bg-gray-100">
-      <div className="flex justify-between p-2 bg-blue-400 text-white sticky top-0 b z-50">
+      <nav className="flex justify-between p-2 bg-blue-400 text-white items-center sticky top-0 b z-50">
         <div className="pl-8 py-2">
-          <Link
-            href="#"
-            className="bg-red-500 text-white rounded-xl p-2 text-2xl"
-          >
-            OVS
-          </Link>
+          <Link href="#"className="bg-red-500 text-white rounded-xl p-2 text-2xl hover:bg-red-400">OVS</Link>
         </div>
-        <div className="flex p-2 gap-10 pr-8">
-          <Link href="/" className="hover:text-gray-300">
-            Home
-          </Link>
-          <Link href="/about" className="text-gray-300 hover:text-gray-300">
-            About
-          </Link>
-          <Link href="/contact" className="hover:text-gray-300">
-            Contact
-          </Link>
+        <div className="flex p-2 gap-10 pr-8 items-center">
+        <Link href="/home" className="hover:text-gray-300">Home</Link>
+        <Link href="/blog" className="hover:text-gray-300">Blogs</Link>
+        <Link href="/about" className="hover:text-gray-300">About</Link>
+        <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+       
+        <div>
+        <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl">Vote Now</Link>
         </div>
-      </div>
+        </div>
+      </nav>
 
       <section id="about" className="bg-gray-100 py-10 h-[80vh]">
         <div className="container mx-auto px-6 lg:px-20">
