@@ -14,12 +14,20 @@ export default function Page() {
         <div className="flex p-2 gap-10 pr-8 items-center">
         <Link href="/home" className="hover:text-gray-300">Home</Link>
         <Link href="/blog" className="hover:text-gray-300">Blogs</Link>
-        <Link href="/about" className="hover:text-gray-300">About</Link>
-        <Link href="/contact" className="hover:text-gray-300">Contact</Link>
-       
+        
         <div>
         <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl">Vote Now</Link>
         </div>
+
+        <div className="flex items-center">
+                                      <Image
+                                        src="/flag.gif"
+                                        alt="Nepal Flag"
+                                        width={30} 
+                                        height={30} 
+                                        className="object-contain"
+                                      />
+                        </div>
         </div>
       </nav>
 

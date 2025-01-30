@@ -22,9 +22,16 @@ export default function Page() {
         <Link href="#abouthome" className="hover:text-gray-300">About</Link>
         <Link href="#contacthome" className="hover:text-gray-300">Contact</Link>
        
-        <div>
-        <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 p-2 rounded-xl text-xl">Vote Now</Link>
-        </div>
+      
+        <div className="flex items-center">
+                              <Image
+                                src="/flag.gif"
+                                alt="Nepal Flag"
+                                width={30} 
+                                height={30} 
+                                className="object-contain"
+                              />
+                </div>
         </div>
       </nav>
 
@@ -40,10 +47,7 @@ export default function Page() {
 
         <div className="flex justify-center mx-auto gap-4 mt-12 p-2">
           <Link href="/howtovote" className="bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 text-white p-2 rounded-lg hover:bg-blue-400 px-7">How To Vote</Link>
-          <div className="flex bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white p-2 rounded-lg hover:bg-red-400 gap-2">
-          <Youtube />
-          <Link href="#">Watch Demo</Link>
-          </div>
+          <Link href="/votenow" className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-9 p-2 rounded-lg hover:bg-blue-400 ">Vote Now</Link>
         </div>
         </div>
 
@@ -256,6 +260,9 @@ Using methods like unique voter IDs, passwords, or biometric authentication.Usin
     </div>
   </div>
 </section>
+
+
+
 
 
       

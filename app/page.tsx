@@ -10,7 +10,7 @@ export default function Page() {
           <Link href="#"className="bg-red-500 text-white rounded-xl p-2 text-2xl hover:bg-red-400">OVS</Link>
         </div>
         <div className="flex p-2 gap-10 pr-8 items-center">
-          <Link href="/" className="text-gray-300 hover:text-gray-300">Home</Link>
+          <Link href="/" className="hover:text-gray-300">Home</Link>
           <Link href="/about" className="hover:text-gray-300">About</Link>
           <Link href="/contact" className="hover:text-gray-300">Contact</Link>
            <div className="flex items-center">
